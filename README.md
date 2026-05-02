@@ -3,16 +3,15 @@
 ## 目录结构（示例）
 
 ```.
+├── docs                       # 文档文件夹
+│   └── ...
+│
 ├── src                        # 代码文件夹
 │   ├── ...
 │   └── ...
 │
-├── docs                       # 文档文件夹
-│   └── ...
-│
 ├── .gitignore                 # Git忽略文件
 ├── .pre-commit-config.yaml    # pre-commit配置文件
-├── .python-version            # Python版本文件
 ├── dev.py                     # 开发脚本，集成常用指令
 ├── pyproject.toml             # Python项目配置文件
 ├── README.md                  # 项目说明文件
