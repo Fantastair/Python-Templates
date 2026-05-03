@@ -130,6 +130,12 @@ def app_command(
                     (f'命令 "{func_name}" 被用户中断', WARNING_STYLE),
                 )
                 sys.exit(1)
+            except Exception as e:
+                prints(
+                    (r"\[dev.py] ", TITLE_STYLE),
+                    (f'命令 "{func_name}" 运行失败，发生错误: {e}', ERROR_STYLE),
+                )
+                sys.exit(1)
 
             end_time = get_time_ns()
             prints(
