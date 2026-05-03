@@ -4,15 +4,7 @@ version = "1.0.0"
 description = "一个Python项目的模板"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = [
-    "matplotlib>=3.10.9",
-    "openpyxl>=3.1.5",
-    "pandas>=3.0.2",
-    "pylint>=4.0.5",
-    "scikit-learn>=1.8.0",
-    "scipy>=1.17.1",
-    "seaborn>=0.13.2",
-]
+dependencies = []
 
 [dependency-groups]
 dev = [
@@ -21,7 +13,6 @@ dev = [
     "ty>=0.0.34",
     "typer>=0.25.1",
 ]
-
 
 [[tool.uv.index]]
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
